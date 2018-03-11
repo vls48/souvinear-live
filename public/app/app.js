@@ -176,7 +176,7 @@ app.controller('MyCtrl', function ($scope, $route, $routeParams, $location) {
           console.log(navBoolean);
           break;
       default:
-      $scope.navBoolean = false;
+      $scope.navBoolean = true;
           console.log('default' + navBoolean);
           break;
       } 
