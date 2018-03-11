@@ -5,6 +5,10 @@
 a {
   text-decoration: none !important; }
 
+.inactive{
+    display: none;
+  }
+
 .intro_wrap {
   display: flex;
   justify-content: center;
@@ -756,21 +760,6 @@ body {
   width: 100%;
   z-index: 0; }
 
-.modal {
-  background-color: #FFF;
-  border-radius: 3px;
-  bottom: 50%;
-  left: 0;
-  max-width: 380px;
-  margin: 0 auto;
-  opacity: 0;
-  overflow: hidden;
-  position: absolute;
-  right: 0;
-  transition: all 600ms ease-in-out;
-  visibility: hidden;
-  width: 100%;
-  z-index: 999; }
 
 .btn_spot_modal_wrap {
   width: 100%;
