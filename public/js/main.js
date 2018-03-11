@@ -18,9 +18,16 @@ function jmp2LocalPage(whichPage) {
   
   
   
-  // Click function for swap animation
   
-  document.getElementById('swap_micro').addEventListener('click', function () {
+var swapmicro = document.getElementById('swap_micro');
+var inbox = document.getElementById('swap_inbox_micro');
+var pin = document.getElementById('pin_micro');
+
+
+// Click function for swap animation
+if (swapmicro){
+
+  swapmicro.addEventListener('click', function () {
   
     if (this.classList.contains('swap_btn')) {
   
@@ -29,11 +36,15 @@ function jmp2LocalPage(whichPage) {
   
     }
   });
+
+}
   
   
   // Click function for swap inbox animation
-  
-  document.getElementById('swap_inbox_micro').addEventListener('mouseenter', function () {
+
+if (inbox){  
+    
+  inbox.addEventListener('mouseenter', function () {
   
     if (this.classList.contains('swap_inbox_btn')) {
   
@@ -42,11 +53,13 @@ function jmp2LocalPage(whichPage) {
   
     }
   });
+}
   
   
   // Click function for pinning songs 
-  
-  document.getElementById('pin_micro').addEventListener('click', function () {
+ if (pin){ 
+
+  pin.addEventListener('click', function () {
   
     if (this.classList.contains('add_pin')) {
   
@@ -56,7 +69,7 @@ function jmp2LocalPage(whichPage) {
     }
   });
   
-  
+}
   
   
   
