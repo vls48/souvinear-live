@@ -1550,7 +1550,6 @@ button {
     font-style: italic;
     font-size: 0.9em; }
   .upcoming_events img {
-    width: 20%;
     margin-top: 0;
     margin-bottom: 15px; }
 
@@ -1575,6 +1574,7 @@ button {
 .plus_button {
   width: 100%;
   bottom: 0;
+  z-index: 2;
   position: fixed;
   display: flex;
   justify-content: flex-end; }
