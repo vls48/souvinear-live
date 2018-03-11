@@ -1,0 +1,81 @@
+<div class="port_wrap">
+    <div ng-controller="editCtrl">
+      <div id="gather">
+          <div class="new-entry-bar">
+      		<h5>you're editing an entry</h5>
+      	</div>
+		 <form ng-submit="edit_concert()" ng-repeat="x in entries">
+		 <div id="headliner-input-container" class="first-container">
+			 <div class="input-icons-container">
+				 <img class="background-icon head" src="graphics/headliner_icon.svg">
+			 </div>
+          	<input type="text" name="headliner" placeholder="Headliner" id="headliner" value="{{ x.HEADLINER }}" class="text-input">
+		  </div>
+		  
+		  <div id="opener-input-container" class="entry-container-add">
+			  <div class="input-icons-container">
+				 <img class="background-icon" src="graphics/opener_icon.svg">
+			 </div>
+          	<input type="text" name="supporting_act"  placeholder="Supporting Act" id="supporting_act" class="text-input" value="{{ x.SUPPORTING_ACT}}">
+		  </div>
+        
+		<div id="venue-input-container" class="entry-container-add">
+			<div class="input-icons-container">
+				 <img class="background-icon" src="graphics/event_title_icon.svg">
+			 </div>
+          <input type="text" name="venue" placeholder="Venue" id="venue" value="{{ x.VENUE}}" class="text-input">
+        </div>
+		  
+		<div id="date-input-container" class="entry-container-add">
+			<div class="input-icons-container">
+				 <img class="background-icon" src="graphics/date_icon.svg">
+			 </div>
+          <input type="date" name="concert_date" id="concert_date" value="{{ x.CONCERT_DATE}}" class="text-input" placeholder="date">
+		</div>
+     	
+        <div id="date-input-container" class="entry-container-add">
+			<div class="input-icons-container">
+				 <img class="background-icon" src="graphics/date_icon.svg">
+			 </div>
+          <input type="time" name="concert_time" id="concert_time" value="{{ x.CONCERT_TIME}}" class="text-input" placeholder="">
+		</div>  
+          
+<!--
+		<div id="photo-input-container">
+			<input type="file" name="image" id="photoInput">  
+		</div>
+-->
+		 
+		<div id="journal-input-container"  class="entry-container-add">
+			<div class="input-icons-container">
+				 <img class="background-icon" src="graphics/note_icon.svg">
+			 </div>
+       <textarea type="text" name="entry" id="entry" value="{{x.ENTRY}}" class="textarea"></textarea>
+		</div>
+
+		<div id="collected-songs">
+            <h4>No collected songs yet!</h4>
+        </div>
+		<div id="collected-badges">
+            <h4>No collected badges yet!</h4>
+        </div>
+
+        <div class="badge_temp_entry">
+			<img src="graphics/badge_pop.svg" alt="Badge Placeholder">
+			<img src="graphics/badge_pop.svg" alt="Badge Placeholder">
+			<img src="graphics/badge_pop.svg" alt="Badge Placeholder">
+		</div>
+             
+		<div id="save-entry-container">
+			<button type="submit" name="submit">update this entry<img src="graphics/lock_transp.svg" alt="Lock Icon"></button>
+		</div>
+        </form>
+    </div>
+    
+    <div id="message"></div>
+    </div>
+    
+    <div class="add_entry_cancel">
+		  <a href="#/main">Cancel</a>
+	</div>
+	</div>
