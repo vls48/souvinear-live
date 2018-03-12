@@ -16,3 +16,5 @@ function jmp2LocalPage(whichPage) {
   
   });
   
+  
+document.getElementById('swap_inbox_micro').classList.add('swap_inbox_play');
