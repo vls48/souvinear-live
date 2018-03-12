@@ -25,7 +25,6 @@ var pin = document.getElementById('pin_micro');
 
 
 // Click function for swap animation
-if (swapmicro){
 
   $("#swap_micro").click(function() {
   console.log('heyeyeyey');
@@ -38,7 +37,6 @@ if (swapmicro){
     }
   });
 
-}
   
   
   // Click function for swap inbox animation
