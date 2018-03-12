@@ -13,12 +13,12 @@ app.config(['$routeProvider',
                 title: 'Logout',
                 templateUrl: 'partials/login.html',
                 controller: 'logoutCtrl',
-                navBoolean: true
+                navBoolean: false
             })
             .when('/signup', {
                 title: 'Signup',
                 templateUrl: 'partials/signup.html',
-                navBoolean: true
+                navBoolean: false
 //                controller: 'authCtrl'
             })
             .when('/main', {
@@ -30,14 +30,14 @@ app.config(['$routeProvider',
             .when('/', {
                 title: 'login',
                 templateUrl: 'partials/login.html',
-                navBoolean: true,
+                navBoolean: false,
 //                controller: 'authCtrl',
                 role: '0'
             })
             .when('/add-entry', {
                 title: 'add entry',
                 templateUrl: 'partials/add-entry.html',
-                navBoolean: true
+                navBoolean: false
 //                controller: 'authCtrl' 
             })
             .when('/hotspot', {
@@ -61,7 +61,7 @@ app.config(['$routeProvider',
             .when('/reset', {
                 title: 'reset password',
                 templateUrl: 'partials/reset.html',
-                navBoolean: true
+                navBoolean: false
 //                controller: 'authCtrl' 
             })
             .when('/spotify', {
@@ -73,7 +73,7 @@ app.config(['$routeProvider',
             .when('/pin', {
                 title: 'pin a song',
                 templateUrl: 'partials/pin.html',
-                navBoolean: true
+                navBoolean: false
 //                controller: 'authCtrl' 
             })
             .when('/spoofy', {
@@ -85,7 +85,7 @@ app.config(['$routeProvider',
             .when('/edit-entry', {
                 title: 'pin a song',
                 templateUrl: 'partials/edit-entry.html',
-                navBoolean: true
+                navBoolean: false
 //                controller: 'authCtrl' 
             })
             .when('/concert-entry', {
