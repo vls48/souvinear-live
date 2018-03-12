@@ -25,10 +25,11 @@ var pin = document.getElementById('pin_micro');
 
 
 // Click function for swap animation
+if (swapmicro){
 
-  swapmicro.addEventListener('click', function () {
+  $("#swap_micro").click(function() {
   console.log('heyeyeyey');
-
+  
     if (this.classList.contains('swap_btn')) {
   
      this.classList.add('swap_play');
@@ -37,7 +38,7 @@ var pin = document.getElementById('pin_micro');
     }
   });
 
-
+}
   
   
   // Click function for swap inbox animation
