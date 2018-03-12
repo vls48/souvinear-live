@@ -2531,7 +2531,7 @@ svg {
     align-items: center;
     color: #371443;
     margin-top: 1.15rem;
-    padding: 20px 20px 20px 20px;
+    /* padding: 20px 20px 20px 20px; */
     font-size: 1.1em;
     font-style: italic; }
     .profile_spot_button img {
@@ -2540,7 +2540,7 @@ svg {
       margin: 0.3rem 0.8rem 0.3rem 0.8rem; }
   .profile_reset_button {
     margin-top: 2rem;
-    padding: 20px 20px 20px 20px;
+    /* padding: 20px 20px 20px 20px; */
     font-size: 1.1em;
     font-style: italic;
     color: #371443; }
