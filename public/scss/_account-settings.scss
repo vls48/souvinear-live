@@ -18,12 +18,40 @@
 	}
 }
 
+.user-border {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	position: relative;
+
+    background: linear-gradient(-45deg, #fe5893, #8C91E3, #2fd9cf);
+	background-size: 400% 400%;
+	animation: gradient-user-border 20s ease infinite;
+
+}
+
+
+@keyframes gradient-user-border {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
 
 .user {
   display: inline-block;
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  position: absolute;
+  right: 0.33rem;
+  top: 0.33rem;
 
   background-repeat: no-repeat;
   background-position: center center;
@@ -31,6 +59,18 @@
 
   background-image: url('../graphics/anthony.jpg');
 }
+
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%
+		}
+		50% {
+			background-position: 100% 50%
+		}
+		100% {
+			background-position: 0% 50%
+		}
+	}
 
 
 .user-pin {
