@@ -6,7 +6,7 @@ app.config(['$routeProvider',
         when('/login', {
             title: 'Login',
             templateUrl: 'partials/login.html',
-            navBoolean: true
+            navBoolean: false
 //            controller: 'loginCtrl'
         })
             .when('/logout', {
