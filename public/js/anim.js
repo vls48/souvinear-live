@@ -16,20 +16,6 @@ var pin = document.getElementById('pin_micro');
   
     }
   });
-
-  
-  
-  // Click function for swap inbox animation
-
-if (inbox){  
-    
-    if (this.classList.contains('swap_inbox_btn')) {
-  
-     this.classList.add('swap_inbox_play');
-    } else {
-  
-    }
-}
   
   
   // Click function for pinning songs 
