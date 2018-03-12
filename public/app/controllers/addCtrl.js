@@ -13,7 +13,7 @@ document.getElementById("message").textContent = "";
 
     
 $http({
-    url: "../v1/concert_processing.php",
+    url: "../../v1/concert_processing.php",
     method: "POST",
     headers: {'Content-Type': 'application/x-www-form-urlencoded'},
     data: concert_info
