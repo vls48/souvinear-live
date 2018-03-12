@@ -1687,10 +1687,10 @@ svg {
 
 .cls-111 {
   fill: none;
-  stroke: #fe5893;
+  stroke: #e2e2eb;
   stroke-linecap: round;
   stroke-miterlimit: 10;
-  stroke-width: 13px; }
+  stroke-width: 21.5px; }
 
 .cls-oneone {
   fill: #381345; }
@@ -2901,7 +2901,6 @@ svg {
       font-style: italic;
       font-size: 1em; }
     .upcoming_events img {
-      width: 20%;
       margin-top: 0;
       margin-bottom: 15px; }
   .entries {
@@ -2980,7 +2979,6 @@ svg {
       font-style: italic;
       font-size: 1.2em; }
     .upcoming_events img {
-      width: 20%;
       margin-top: 0;
       margin-bottom: 15px; }
   .entries {

@@ -28,7 +28,7 @@ var pin = document.getElementById('pin_micro');
 if (swapmicro){
 
   swapmicro.addEventListener('click', function () {
-  
+  console.log('heyeyeyey');
     if (this.classList.contains('swap_btn')) {
   
      this.classList.add('swap_play');
