@@ -7,7 +7,7 @@ app.controller('editCtrl', function($scope, $http, $window, $localStorage) {
         console.log(editInfo);
     
         $http({
-        url: "../angular/v1/editConcertList.php",
+        url: "../v1/editConcertList.php",
         method: "POST",
         headers: {'Content-Type': 'application/json; charset=UTF-8'},
         //headers: {'Content-Type': 'application/x-www-form-urlencoded'},
@@ -36,7 +36,7 @@ app.controller('editCtrl', function($scope, $http, $window, $localStorage) {
         document.getElementById("message").textContent = "";
         
         $http({
-            url: "../angular/v1/edit_processing.php",
+            url: "../v1/edit_processing.php",
             method: "POST",
             headers: {'Content-Type': 'application/x-www-form-urlencoded'},
             data: concert_info
