@@ -2652,7 +2652,7 @@ svg {
     margin-right: 2rem; }
     .left_phone_wrap .left_phone {
       margin-top: 25%;
-      animation: swivel_right 1.6s infinite .75s;
+      animation: swivel_right 1.6s infinite alternate .75s;
       transform: rotate(180deg);
       width: 45%;
       transform-origin: center center; }
