@@ -206,11 +206,11 @@ function initMap() {
 				});
 	
 	//VENUE INFORMATION - ARTIST NAME 			
-			var add = locations[i][3]
-			var date = locations[i][4]
-			var ticket = locations [i][5]
-			var dis = "distance"
-			var content = locations[i][0] + "<br> Artist: " + add + "<br>" + date + "<br>" +  "<a href='" + ticket + "'><button>Tickets</button></a>'"    
+			var add = locations[i][3];
+			var date = locations[i][4];
+			var ticket = locations [i][5];
+			var dis = "distance";
+			var content = locations[i][0] + "<br> Artist: " + add + "<br>" + date + "<br>" +  "<a href='" + ticket + "'><button>Tickets</button></a>'";    
 			var prev_infowindow = false; 
 				
 			var infowindow = new google.maps.InfoWindow()
