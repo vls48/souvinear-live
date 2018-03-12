@@ -21,7 +21,7 @@ var i;
 //creates map
 //is called when page loads
 function initMap() {
-
+console.log("fire1");
 
 	//MAP STYLES
 	var styledMapType = new google.maps.StyledMapType(
