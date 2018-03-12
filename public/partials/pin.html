@@ -6,7 +6,11 @@
 
 			<div class="spotify_pin_intro">
 				<h3>choose a song to pin!</h3>
-				<h4>Pinned songs will appear at hotspots for other users to collect.  Make it a good one!</h4>
+				<h4>Pinned songs will appear at hotspots for other users to collect.  Make it a good one!</h4
+> 			<div id="yourPinSong">
+				<div id="yourPinSongImage"></div>
+				<div id="yourPinSongInfo"></div>
+			</div>
 			</div>
 
 
@@ -30,15 +34,16 @@
 					<div class="spotify_pin_wrap">
 						<img src="graphics/spotify_purple.svg" alt="Spotify Purple Icon">
 						<h3>Search Spotify:</h3>
-						<div class="spotify_search_bar">
+						<form class="spotify_search_bar" id="search-form">
 					      <img src="graphics/magnify.svg" alt="Search Icon">
-					      <input type="text" name="spot_search" id="spot_search"  onfocus="this.placeholder = ''">
-				   	 	</div>
+						  <input type="text" name="spot_search" id="query"  onfocus="this.placeholder = ''">
+						  <input type="submit" id="search" class="btn btn-primary" value="Search">
+						</form>
 					</div>
 					<div class="flex_connect">
 						<h3 class="connect_user">connected to: ant_green04 - edit</h3>
 					</div>
-			
+					<div id="results"></div>			
 			
 
 			<div class="playlist_suggestions_wrap">
