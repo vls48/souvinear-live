@@ -119,7 +119,7 @@ app.factory('dataService', function() {
 app.controller('MyCtrl', function ($scope, $route, $routeParams, $location) {
     
   var navBoolean = $scope.navBoolean;
-  navBoolean = true;
+  navBoolean = false;
   $scope.$route = $route;
   var hello = $location.path();
   $scope.$routeParams = $routeParams;
