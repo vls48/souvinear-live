@@ -2848,7 +2848,7 @@ svg {
   position: fixed;
   display: flex;
   justify-content: flex-end;
-  z-index: 999; }
+  z-index: 99; }
 
 @media screen and (min-width: 375px) {
   .upcoming h2 {
@@ -2926,7 +2926,7 @@ svg {
     position: fixed;
     display: flex;
     justify-content: flex-end;
-    z-index: 999; } }
+    z-index: 99; } }
 
 @media screen and (min-width: 414px) {
   .upcoming h2 {
@@ -3004,4 +3004,4 @@ svg {
     position: fixed;
     display: flex;
     justify-content: flex-end;
-    z-index: 999; } }
+    z-index: 99; } }
