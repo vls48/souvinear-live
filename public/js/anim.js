@@ -23,15 +23,12 @@ var pin = document.getElementById('pin_micro');
 
 if (inbox){  
     
-  inbox.addEventListener('mouseenter', function () {
-  console.log("hover");
     if (this.classList.contains('swap_inbox_btn')) {
   
      this.classList.add('swap_inbox_play');
     } else {
   
     }
-  });
 }
   
   
