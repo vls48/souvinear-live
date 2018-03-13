@@ -72,7 +72,7 @@ app.config(['$routeProvider',
             })
             .when('/pin', {
                 title: 'pin a song',
-                templateUrl: 'partials/pin.html',
+                templateUrl: 'partials/pin.php',
                 navBoolean: false
 //                controller: 'authCtrl' 
             })

@@ -2,6 +2,22 @@
 * {
   box-sizing: border-box; }
 
+  #yourPinSong{
+    margin-top: 20px;
+    height: 100px;
+    background-color: #ededf7;
+    display: flex;
+  }
+#yourPinSongImage{
+  height: 100px;
+  width: 100px;
+  background-color: #afb0be;
+}
+#yourPinSongInfo{
+  padding-top: 35px;
+  padding-left: 15px;
+}
+
 a {
   text-decoration: none !important; }
 
@@ -14,6 +30,15 @@ a {
     background: linear-gradient(-45deg, #fe5893, #8C91E3, #2fd9cf);
     background-size: 400% 400%;
     animation: gradient-user-border 17.5s ease infinite;
+}
+
+#search{
+  background-color: #2fd9cf;
+  border-radius: 40px;
+  border: solid 2px #2fd9cf;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
 }
 
 .user {
@@ -846,7 +871,9 @@ a {
 .spotify_search_bar {
   position: relative;
   margin: 0;
-  margin-bottom: 1.2rem; }
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column; }
   .spotify_search_bar label {
     position: absolute;
     font-family: 'Muli', sans-serif;
@@ -1590,18 +1617,6 @@ html, body {
 .slide:first-child {
   display: block; }
 
-.slide:nth-of-type(1) {
-  /*   background: #D7A151; */ }
-
-.slide:nth-of-type(2) {
-  /*   background: #F4E4CD; */ }
-
-.slide:nth-of-type(3) {
-  /*   background: #C75534; */ }
-
-.slide:nth-of-type(4) {
-  /*   background: #D1D1D4; */ }
-
 .slide_buttons {
   left: 0;
   position: absolute;
@@ -2203,13 +2218,13 @@ svg {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  #gather .new-entry-bar {
+.new-entry-bar {
     background-color: #371443;
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 2rem; }
-    #gather .new-entry-bar h5 {
+.new-entry-bar h5 {
       color: white;
       font-family: 'Muli', sans-serif;
       font-size: 1em;
@@ -2603,7 +2618,7 @@ svg {
       height: 45px;
       margin: 0.3rem 0.8rem 0.3rem 0.8rem; }
   .profile_reset_button {
-    margin-top: 2rem;
+    margin-top: 1rem;
     /* padding: 20px 20px 20px 20px; */
     font-size: 1.1em;
     font-style: italic;
@@ -2911,7 +2926,7 @@ svg {
       left: 0.4rem;
       bottom: -0.4rem;
       position: fixed;
-      z-index: 400000;
+      z-index: 40;
   }
   
   
@@ -2920,7 +2935,7 @@ svg {
     }
   
    .cls-onee {
-      fill: url(#linear-gradient);
+      fill: #e96a99;
     }
   
    .cls-twoo {

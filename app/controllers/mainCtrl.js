@@ -1,5 +1,5 @@
 app.controller('mainCtrl', function($scope, $http, $window, $localStorage) {
-        $http.get("v1/concertList.php")
+        $http.get("../souvinearmachine/v1/concertList.php")
         .then(function (response) {$scope.entries = response.data.entries;});
 
     

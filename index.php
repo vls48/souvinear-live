@@ -1,26 +1,3 @@
-<?php 
-
-/* Spotify Application Client ID and Secret Key */
-$client_id     = 'f77925f0471243af97142794fd2efe1d'; 
-$client_secret = '75c4616ff46c42468e1f5a0395b14022'; 
-
-/* Get Spotify Authorization Token */
-$ch = curl_init();
-curl_setopt($ch, CURLOPT_URL,            'https://accounts.spotify.com/api/token' );
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 );
-curl_setopt($ch, CURLOPT_POST,           1 );
-curl_setopt($ch, CURLOPT_POSTFIELDS,     'grant_type=client_credentials' ); 
-curl_setopt($ch, CURLOPT_HTTPHEADER,     array('Authorization: Basic '.base64_encode($client_id.':'.$client_secret))); 
-
-$result=curl_exec($ch);
-$json = json_decode($result, true);
-
-/* Get Spotify Artist Photo */
-// echo "<pre>";
-// exec('curl -i "https://api.spotify.com/v1/search?q=Maycon+%26+Vinicius+&limit=1&type=artist" -H "Accept: application/json" -H "Authorization: Bearer '.$json['access_token'].'" -H "Content-Type: application/json" 2>&1', $pp);
-// echo implode("\r\n", $pp);
-
-?>
 
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">

@@ -7,7 +7,7 @@ app.controller('concertCtrl', function($scope, $http, $window, $localStorage) {
         console.log(displayInfo);
     
         $http({
-        url: "../v1/editConcertList.php",
+        url: "../souvinearmachine/v1/editConcertList.php",
         method: "POST",
         headers: {'Content-Type': 'application/json; charset=UTF-8'},
         //headers: {'Content-Type': 'application/x-www-form-urlencoded'},

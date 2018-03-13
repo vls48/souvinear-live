@@ -6,7 +6,7 @@ document.getElementById("message").textContent = "";
 
 var request = $http({
     method: "post",
-    url: window.location.href + "/v1/login_processing.php",
+    url: window.location.href + "../souvinearmachine/v1/login_processing.php",
     data: {
         username: $scope.username,
         pass: $scope.password
