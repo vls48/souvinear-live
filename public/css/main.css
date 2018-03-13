@@ -25,9 +25,9 @@ a {
   }
   
   .fade-in.one {
-    -webkit-animation-delay: 0;
-    -moz-animation-delay: 0;
-    animation-delay: 0;
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    animation-delay: .3s;
   }
 
 .inactive{
